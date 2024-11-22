@@ -106,7 +106,6 @@ while( Condición){
 }
 ```
 
-
 El significado es que mientras la expresión Condición resulta cierta, se ejecuta la Acción de forma repetitiva.
 Cuando el resultado cs falso finaliza la ejecución de la sentencia. Si la Condición rcsulta falsa en la primera
 evaluación, la Acción no se ejecuta nunca.
@@ -127,3 +126,16 @@ Así, con la sentencia de autodecremento la variable n va disminuyendo su valor 
 al tiempo que esos valores se van multiplicando sucesivamente, guardando el producto acumulado en factorial,
 hasta que n se reduce a 1. Si inicialmente el valor de n es igual o menor que 1, no se ejecutan nunca las sentencias
 dentro del bucle, por lo que la variable factorial termina con el mismo valor inicial igual a 1.
+
+## Sentencia FOR
+Existen muchas situaciones en las que las repeticiones del bucle se controlan mediante una variable que va contando las veces que se ejecuta.
+La cuenta puede ser en sentido creciente, o decreciente.
+La Condición de la iteración se limita a comprobar si se ha alcanzado el límite correspondiente al número de repeticiones previstas. Esto es lo que hemos hecho en el ejemplo del factorial con la variable n. La variable no se decrementa en cada iteración y se comprueba el número total de ejecuciones con la expresión condicional n > 1.
+
+Debido a lo habitual de esta situación, en casi todos los lenguajes existen sentencia que simplifican su construcción. En C se dispone de la sentencia FOR, cuya forma para incremento creciente es la siguiente:
+```c
+
+for (int Índice = Inicial ; Índice <= Final ; Índice ++){ 
+    Acción
+}
+```
