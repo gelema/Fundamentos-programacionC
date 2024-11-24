@@ -3,7 +3,7 @@ En este ejemplo se trata de confeccionar un recibo sencillo, correspondiente
 a la compra de unos equipos. Como datos habrá que introducir el tipo de
 equipo, indicado mediante un código de un carácter; la cantidad de equipos,
 el precio unitario y el tipo de IVA aplicado.
-Los subtotales y totales se darán en euros y céntimos
+Los subtotales y totales se darán en dolares y céntimos
 
 */
 

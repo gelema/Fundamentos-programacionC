@@ -12,6 +12,9 @@ accion A y si el resultado es "NO" se realiza la accion "B". Como se puede obser
 una unica salida.
 
 Structure if
+
+![loop if](../img/accion.png)
+
 ```sh
 //formato if
 
@@ -23,6 +26,8 @@ if( Condicion){
 ```
 
 Las palabras clave __if__ y __else__ separan las distintas partes de la sentencia. Por ejemplo:
+![alt text](../img/iteración.png)
+
 ```c
 #include <stdio.h>
 
@@ -55,6 +60,7 @@ quede escrito utilizando las estructuras básicas descritas en este apartado, an
 ## Caso 1
 Tal como se indico anteriormente, es posible anidar varias estructuras de seleccion unas dentro de otras.
 Asi, se podria realizar esta seleccion de la siguiente forma:
+![alt text](../img/if.png)
 ```c
 //if example
 if(edad < 6){
