@@ -114,6 +114,4 @@ while(INT_MAX-termino >= anterior){
     termino = aux;
     printf("%10d\n", termino);
 }
-
-
 ```
