@@ -6,32 +6,34 @@
 #include <stdio.h>
 
 int main(){
-    const int N = 7; //altura del triangulo
+    const int N = 7;
 
-    //Escribir el vertical superior
-    printf("\t\tTriangle Contour\n");
+    printf("\t\t\t\t Borde de triangulos");
+
+    //vertice superior
     for(int k = 1; k <= N-1; k++){
         printf(" ");
     }
     printf("*\n");
 
-    //imprime los bordes laterales
+
+    //bordes laterales
     for(int k = 2; k <= N-1; k++){
-        for (int j = 1; k <= N-k; j++) {
+        for(int j = 1; k < N-k; j++){
             printf(" ");
         }
         printf("*");
-
-    for(int j = 1; j <= 2 *  k- 3; j++){
-        printf(" ");
+        for (int j = 1; j <= 2*k-3; j++){
+            printf(" ");
         }
         printf("*\n");
+        
     }
-
-    //Imprime el borde interior
+    
+    //borde inferior
     for(int k = 1; k <= N-1; k++){
         printf(" *");
     }
     printf("\n");
     return 0;
-}
+};
