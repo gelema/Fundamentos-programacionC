@@ -1,6 +1,7 @@
 # Fundamentos de Programacion
   José A. Cerrada Somolinos
   Manuel E. Collado Machuca
+![Alt text](https://cdn.agapea.com/Editorial-Universitaria-Ramon-Areces/Fundamentos-de-programacion-i6n2173560.jpg)
 
 # Objetivos
 El objetivo fundamental de este libro es introducir de manera progresiva y sistemática una correcta metodología para
